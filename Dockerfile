@@ -1,5 +1,5 @@
 FROM node:latest
-WORKDIR /koti 
+WORKDIR /app
 RUN npm install
 COPY package*.json ./
 RUN npm run build
