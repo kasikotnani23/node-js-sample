@@ -1,6 +1,6 @@
 FROM node:latest
 WORKDIR /koti 
-RUN npm i
+RUN npm install
 COPY package*.json ./
 RUN npm run build
 COPY . .
