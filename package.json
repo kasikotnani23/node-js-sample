@@ -4,13 +4,14 @@
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "react-scripts build" 
   },
   "dependencies": {
     "express": "^4.13.3"
   },
   "engines": {
-    "node": "4.0.0"
+    "node": ">=16"
   },
   "repository": {
     "type": "git",
